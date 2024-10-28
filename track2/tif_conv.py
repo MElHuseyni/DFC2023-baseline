@@ -3,9 +3,9 @@ import os
 import numpy as np
 
 # Set the path of the directory containing the TIFF files
-tiff_dir = '/home/mahmud-elhussieni/Building-Detection-and-Estimation/BuildingSegmentationDataset/raw_data/GRSS_DFC2023/train/dsm/'
+tiff_dir = '/home/mahmud-elhussieni/Building-Detection-and-Estimation/BuildingSegmentationDataset/raw_data/GRSS_DFC2023/train/rgb'
 # Set the path of the directory to save the PNG files
-jpeg_dir = '/home/mahmud-elhussieni/Building-Detection-and-Estimation/BuildingSegmentationDataset/raw_data/GRSS_DFC2023/train/dsm_png/'
+jpeg_dir = '/home/mahmud-elhussieni/Building-Detection-and-Estimation/BuildingSegmentationDataset/raw_data/GRSS_DFC2023/train/rgb_png/'
 
 # Loop through all the files in the TIFF directory
 for filename in os.listdir(tiff_dir):
